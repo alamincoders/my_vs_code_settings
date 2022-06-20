@@ -1,0 +1,105 @@
+/*================================
+ VS Code Settings
+================================*/
+
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 22,
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.fontSize": 20,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 150,
+  "editor.wordWrap": "on",
+  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"],
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.largeFileOptimizations": false,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.autoSaveDelay": 100,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "tabnine.experimentalAutoImports": true,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.colorCustomizations": {
+    "editorGroupHeader.tabsBackground": "#141422",
+    "sideBar.background": "#141422",
+    "minimap.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#141422",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#d4922f"
+  },
+  "editor.linkedEditing": true,
+  "terminal.integrated.fontWeight": "normal",
+  "window.zoomLevel": 0.75
+}
+
+
+/*================================
+ VS Code Extension
+================================*/
+01. Auto Close Tag
+02. Auto Rename Tag
+03. Bracket Pair Colorizer
+04. Code Runner
+05. HTML CSS Support
+06. JavaScript (ES6) code snippets
+07. Live Server
+08. Code Spell Checker
+09. Material Icon Theme
+10. Prettier - Code formatter
+11. ESLint
+12. Simple React Snippets
+13. GitLens
+14. HTML CSS Support
+15. Indent-rainbow
+16. IntelliSense for CSS
+17. NPM 
+18. Npm Intellisense
+19. Path IntelliSense
+20. Polacode
+21. PostCSS Language Support
+22. React Extension Pack
+23. Reactjs Code Snippets
+24. Search Node_modules
+25. Tabnine
+26. Tailwind CSS IntelliSense
+27. Window Colors
+28. Color Highlight
+29. CSS Peek
+30. ES7 + React/Redux/React-Native snippets
+
+
+/*================================
+ VS Code Themes
+================================*/
+01. Andromeda
+02. Dracula Official
+03. Learn With Sumit
+04. Night Owl
+05. Shades of Purple
+06. SynthWave '84
+07. Ayu (Theme)
