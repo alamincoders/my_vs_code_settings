@@ -88,7 +88,7 @@
 25. Tabnine
 26. Tailwind CSS IntelliSense
 27. Window Colors
-28. Color Highlight
+28. Image Preview
 29. CSS Peek
 30. ES7 + React/Redux/React-Native snippets
 
