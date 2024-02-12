@@ -3,59 +3,85 @@
 ================================*/
 
 {
-  "files.autoSave": "afterDelay",
-  "editor.fontSize": 22,
+  "editor.fontSize": 20,
   "editor.mouseWheelZoom": true,
-  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontSize": 18,
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.formatOnSave": true,
-  "prettier.printWidth": 150,
-  "editor.wordWrap": "on",
-  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"],
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.sortImports": "always"
+  },
+
+  "prettier.printWidth": 200,
+  "editor.wordWrap": "on",
+
   "editor.largeFileOptimizations": false,
-  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Cascadia Code', 'Monolisa', 'Menlo', 'Monaco', 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "files.autoSaveDelay": 100,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.bracketPairColorization.enabled": true,
-  "workbench.iconTheme": "material-icon-theme",
+
   "workbench.startupEditor": "none",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "workbench.colorTheme": "Andromeda Colorizer",
+
   "workbench.colorCustomizations": {
     "editorGroupHeader.tabsBackground": "#141422",
     "sideBar.background": "#141422",
     "minimap.background": "#141422",
-    "tab.activeBackground": "#706fd3",
+    "tab.activeBackground": "#3c334c",
     "tab.inactiveBackground": "#141422",
     "terminal.border": "#2c2c54",
-    "terminal.background": "#2c2c54",
+    "terminal.background": "#141422",
     "statusBar.background": "#474787",
     "scrollbarSlider.background": "#474787",
     "scrollbarSlider.hoverBackground": "#706fd3"
   },
   "editor.tokenColorCustomizations": {
-    "comments": "#d4922f"
+    "comments": "#656057c7"
   },
+
   "editor.linkedEditing": true,
   "terminal.integrated.fontWeight": "normal",
-  "window.zoomLevel": 0.75
+
+  "workbench.iconTheme": "material-icon-theme",
+  "tabnine.experimentalAutoImports": true,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.smoothScrolling": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.enableSmartCommit": true,
+  "cSpell.userWords": ["Wallmate"],
+  "files.autoSave": "afterDelay",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.find.autoFindInSelection": "always",
+  "workbench.editor.wrapTabs": true,
+  "editor.minimap.enabled": false
 }
+
 
 
 /*================================
